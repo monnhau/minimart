@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^storage/app - [L]
+    RewriteRule ^(.*)$ public/$1 [L]
+    Options All -Indexes
+</IfModule>

@@ -1,0 +1,204 @@
+.khung1{
+    border: 1px solid #dbdbdb;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 20px 4px;
+    width: 205px;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+}
+
+.khung1 .muc_chinh1{
+    padding: 6px;
+    background: #d4ebf3;
+    height: 32px;
+    text-align: center;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height: 18px;
+    border-top-right-radius: 18px;
+}
+
+.muc_chinh1 .ten_sp{
+    color:darkblue;
+    font-weight: bold;
+    font-size: 14px;   
+}
+
+.item_km{
+    position: absolute;
+    top: -12px;
+    right: -6px;
+    background: rgba(250,169,25,1);
+    padding: 5px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.khung1 .muc_duoi1{
+    padding: 6px;
+    text-align: center;
+    background: #d4ebf3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.muc_duoi1 span{
+    color: #3B5998;
+    font-family: verdana,arial,sans-serif;
+    font-weight: bold;
+    font-size: 15px;   
+}
+.muc_duoi1 a{
+      font-size: 15px;
+}
+
+.muc_duoi1 .chitiet{
+    color: darkblue;
+}
+
+.muc_phu1{
+    position: relative;
+    height: 190px;
+    display: block;
+}
+
+
+.muc_phu1 img{
+    width: 100%;
+    height: 190px;
+    
+}
+
+.price_sp_si{
+    position: absolute;
+    bottom: 26px;
+    background: rgba(255,255,255,0.7);
+    padding: 5px 0px;
+    width: 100%;
+    text-align: center;
+    color: initial;
+    max-width: 100%;
+}
+.price_sp_le{
+    position: absolute;
+    bottom: 0px;
+    background: rgba(255,255,255,0.7);
+    padding: 5px 0px;
+    width: 100%;
+    text-align: center;
+    color: initial;
+    max-width: 100%;
+}
+
+.muc_phu1:hover > .mota_km{
+    display: inline;
+}
+
+.mota_km{
+    position: absolute;
+    top: 0px;
+    background: rgba(250,169,25,1);
+    padding: 5px 10px;
+    max-width: 100%;
+    color: #fff;
+    font-weight: bold;
+    display: none;
+}
+
+.xoa{
+    color: red;
+}
+
+.muc_phu1 img:hover{
+    object-fit: scale-down;
+    object-position: center;
+}
+
+.dialog-ovelay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 999999;
+    height: 100%;
+    width: 100%;
+}
+.dialog-ovelay .dialog {
+    width: 50%;
+    margin: 100px auto 0;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    border-radius: 3px;
+    overflow: hidden
+}
+.dialog-ovelay .dialog header {
+    padding: 10px 8px;
+    background-color: #f6f7f9;
+    border-bottom: 1px solid #e5e5e5
+}
+.dialog-ovelay .dialog header h3 {
+    font-size: 14px;
+    margin: 0;
+    color: #555;
+    display: inline-block
+}
+.dialog-ovelay .dialog header .fa-close {
+    float: right;
+    color: #c4c5c7;
+    cursor: pointer;
+    transition: all .5s ease;
+    padding: 0 2px;
+    border-radius: 1px    
+}
+.dialog-ovelay .dialog header .fa-close:hover {
+    color: #b9b9b9
+}
+.dialog-ovelay .dialog header .fa-close:active {
+    box-shadow: 0 0 5px #673AB7;
+    color: #a2a2a2
+}
+.dialog-ovelay .dialog .dialog-msg {
+    padding: 12px 10px
+}
+.dialog-ovelay .dialog .dialog-msg p{
+    margin: 0;
+    font-size: 15px;
+    color: #333
+}
+.dialog-ovelay .dialog footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 8px 10px
+}
+.dialog-ovelay .dialog footer .controls {
+    direction: rtl;
+    text-align: center;
+}
+.dialog-ovelay .dialog footer .controls .button {
+    padding: 8px 20px;
+    border-radius: 3px;
+    margin: 2px 10px;
+}
+.button {
+  cursor: pointer
+}
+.button-default {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    color: #5D5D5D;
+}
+.button-danger {
+    background-color: #f44336;
+    border: 1px solid #d32f2f;
+    color: #f5f5f5
+}
+.link {
+  padding: 5px 10px;
+  cursor: pointer
+}

@@ -1,0 +1,181 @@
+.them_and_tk{
+	margin-top: 12px;
+}
+
+.btn_them{
+    text-transform: uppercase;
+}
+
+.search_form{
+	display: inline;
+    float: right;
+}
+
+.empty_list_p{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.search_by{
+    height: 27px;
+    font-size: 15px;
+    outline: none;
+}
+
+.btn_null{
+	height:11px;
+	background:#fff;
+}
+
+.txt_key{
+    padding: 4px 7px;
+    font-size: 15px;
+}
+
+.header_table{
+	margin-top: 15px;
+    background: #f2f2f2;
+    padding: 7px 5px;
+    display: inline-block;
+    font-size: 14px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+table{
+	border: 1px solid gray;
+    font-size: 14px;
+    border-collapse: collapse;
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+thead{
+	background: #f2f2f2;
+	color: #000;
+}
+
+tbody{
+    background: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th{
+	border: 1px solid #dddddd;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+td{
+	border: 1px solid #dddddd;
+    padding: 8px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.toggle_img{
+    width: 50px;
+}
+
+.img_td{
+    width: 150px;
+    height: 100px;
+}
+
+.img_td:hover{
+    object-fit: scale-down;
+    object-position: center;
+}
+
+.btn_action{
+    color: white;
+    padding: 3px 12px;
+    border-radius: 7px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.btn_xoa{
+    background: red;
+}
+
+.btn_sua{
+    background: #5cb85c;
+}
+
+.btn_menu{
+    background: blue;
+}
+
+.img_action{
+    width:18px;
+}
+
+.phan_trang{
+    padding: 7px 20px;
+    border-radius: 9px;
+    text-align: center;
+    width: 30%;
+    margin: 15px auto;
+    font-size: 14px;
+    background: #fff;
+}
+
+.pagination li {
+    display: inline;
+    font-size: 20px;
+    border: 1px solid #bdbdbd;
+}
+
+.pagination .active{
+    background: #009688;
+    color: #fff;
+}
+
+.pagination li a{
+    padding: 1px 8px;
+    display: inline-block;
+    margin: 2px 0;
+}	
+.pagination li span{
+    padding: 1px 8px;
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.msg .active{
+	background: #df942d;
+    padding: 5px;
+    text-align: center;
+    border-radius: 7px;
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.unit_desc_span{
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+.product_price{
+    color: red;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.space_tr{
+    border-top: 3px solid #009688;
+}
+
+.td_empty{
+    background:#009688;
+}
+

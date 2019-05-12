@@ -1,0 +1,345 @@
+body{
+    /*font-family: verdana,arial,sans-serif;*/
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    /*color: #333;*/
+    font-weight: 300;
+    padding: 10px 20px;
+    max-width: 100%;
+    min-width: 915px;
+    margin: 0 auto;
+    background: #bf3a3a;
+    position: relative;
+}
+
+.clr{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+.container2{
+    /*padding-left: 7%;
+    padding-right: 7%;*/
+}
+
+.msg{
+	color: #fff;
+    background: #5cb85c;
+    padding: 7px;
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.msg_err{
+	color: #fff;
+    background: #bf3a3a;
+    padding: 7px;
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button{
+	color: #fff;
+    background: #5cb85c;
+    padding: 7px 15px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    font-size:14px;
+    display: inline-block;
+}
+
+.alert{
+    background: #bf3a3a;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 10px 0px;
+    line-height: 19px;
+    border-radius: 10px;
+}
+
+.img_back{
+    width: 47px;
+    height: 33px;
+    float: left;
+    margin-top: -4px;
+    position: absolute;
+}
+
+.h1_div{
+    position: relative;
+}
+
+/* ------------------header---*/
+.header{
+
+}
+
+.header img{
+    width: 150px;
+    border-radius: 10px;
+    height: 67px;
+}
+
+.header span{
+    float: right;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 34px;
+    padding: 7px;
+    border-radius: 10px;
+    color: #333;
+    background: #fff;
+}
+
+.nav_bar{
+    border: 1px solid #9E9E9E;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 200px;
+    background: #fff;
+}
+
+.navbar p{
+    font-family: 'Cuprum', sans-serif !important;
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+}
+.nav_bar_name{
+    color: #333;
+}
+
+.hr_margin{
+    border-color: #03A9F4;
+    margin-bottom: 30px;
+    height: 3px;
+    background: #03A9F4;
+}
+
+/* ------------------END header---*/
+
+/* ------------------BEGIN leftbar---*/
+.leftbar{
+    width: 13em;
+    float: left;
+    min-width: 200px;
+}
+
+.khung{
+    border: 1px solid #9E9E9E;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #fff;
+}
+
+.khung .muc_chinh{
+    border-bottom: 1px solid #9E9E9E;
+    padding: 13px 6px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #fff
+}
+
+.muc_chinh span{
+    color: #990000;
+    font-family: verdana,arial,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.khung .muc_phu{
+    padding: 5px 10px 10px 10px;
+}
+
+.muc_phu ul{
+
+}
+
+.muc_phu li{
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.muc_phu li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 6px;
+}
+
+.muc_phu li:hover{
+    background: #BDBDBD;
+    border-radius: 5px;
+}
+
+.muc_phu li:hover > a{
+    color: #333;
+}
+
+.muc_phu .active a{
+    color: #333;
+}
+
+.muc_phu .active{
+    background: #BDBDBD;
+    border-radius: 5px;
+}
+/* ------------------END leftbar---*/
+
+
+/* ------------------BEGIN content---*/
+.content{
+    margin: 20px 0px 10px 14em;
+    border: 1px solid #9E9E9E;
+    border-radius: 10px;
+    padding: 15px;
+    background: #fff;
+    min-height: 438px;
+    position: relative;
+}
+
+.content h1{
+    font-size: 26px;
+    color: #990000;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+    /*----BEGIN trang diem content index-----*/
+
+
+    /*----END trang diem content index-----*/
+
+
+    /*----BEGIN trang diem content cho page cat*/
+
+
+    /*----END trang diem content cho page cat*/
+
+
+
+/* ------------------END content---*/
+
+/* ------------------BEGIN foooter---*/
+.footer{
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 14px;
+    line-height: 16px;
+    padding: 7px;
+    border-radius: 10px;
+    background: ghostwhite;
+}
+
+/* ------------------END footer---*/ 
+
+/*---------------BEGIN PopUp Dialog  --------------------*/
+.dialog-ovelay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999999;
+    height: 100%;
+    width: 100%;
+}
+.dialog-ovelay .dialog {
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    border-radius: 3px;
+    overflow: hidden;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+}
+.dialog-ovelay .dialog header {
+    padding: 10px 8px;
+    background-color: #f6f7f9;
+    border-bottom: 1px solid #e5e5e5
+}
+.dialog-ovelay .dialog header h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #FF5722;
+    display: inline-block;
+}
+.dialog-ovelay .dialog header .fa-close {
+    float: right;
+    color: #c4c5c7;
+    cursor: pointer;
+    transition: all .5s ease;
+    padding: 0 2px;
+    border-radius: 1px    
+}
+.dialog-ovelay .dialog header .fa-close:hover {
+    color: #b9b9b9
+}
+.dialog-ovelay .dialog header .fa-close:active {
+    box-shadow: 0 0 5px #673AB7;
+    color: #a2a2a2
+}
+.dialog-ovelay .dialog .dialog-msg {
+    padding: 12px 10px;
+    line-height: 21px;
+}
+.dialog-ovelay .dialog .dialog-msg p{
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 10px;
+    line-height: 21px;
+    color: #18771c;
+    border: 2px solid #FFC107;
+}
+.dialog-ovelay .dialog footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 8px 10px
+}
+.dialog-ovelay .dialog footer .controls {
+    direction: rtl;
+    text-align: center;
+}
+.dialog-ovelay .dialog footer .controls .button {
+    padding: 8px 20px;
+    border-radius: 3px;
+    margin: 2px 10px;
+}
+.button {
+  cursor: pointer
+}
+.button-default {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    color: #5D5D5D;
+}
+.button-danger {
+    background-color: #f44336;
+    border: 1px solid #d32f2f;
+    color: #f5f5f5
+}
+.link {
+  padding: 5px 10px;
+  cursor: pointer
+}
+/*---------------BEGIN PopUp Dialog  --------------------*/
+
+
+
+
