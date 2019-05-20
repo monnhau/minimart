@@ -80,6 +80,20 @@ td{
 
 .toggle_img{
     width: 50px;
+    border-bottom: 3px solid #d0d0d0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 2px solid #d0d0d0;
+    border-top-right-radius: 13px;
+}
+
+.toggle_img_btn{
+    width: 50px;
+    border-bottom: 3px solid #d0d0d0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 2px solid #d0d0d0;
+    border-top-right-radius: 13px;
 }
 
 .img_td{

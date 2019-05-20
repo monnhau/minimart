@@ -1,5 +1,5 @@
-@if($soDong > 1 && $soDong < 100)
-    @for($i = 1; $i <= $soDong - 1; $i++)
+@if($soDong > 0 && $soDong < 100)
+    @for($i = 1; $i <= $soDong + 1; $i++)
         @php
             $id_batch = 'id_batch'.$i;
             $qty = 'qty'.$i;
@@ -25,15 +25,9 @@
                             <thead>
                                 <tr>
                                     <th>Tên sản phẩm</th>
+                                    <th>Có khuyến mãi?</th>
                                     <th>Hình ảnh</th>
                                     
-                                    <th class="td_empty"></th>
-                                    <th>Đơn giá</th>
-                                    <th>Số lượng</th>
-                                    <th>Thành tiền</th>
-                                    <th class="td_empty"></th>
-                                    <th>Có khuyến mãi?</th>
-
                                     <th>Đơn vị lẻ nhỏ nhất(ĐVLNN)</th>
                                     <th>Giá lẻ / ĐVLNN</th>
                                     <th>Kích hoạt bán sĩ?</th>
@@ -46,14 +40,7 @@
                                 <tr class="one_tr_product">
                                     <td></td>
                                     <td></td>
-
-                                    <td class="td_empty"></td>
                                     <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="td_empty"></td>
-                                    <td></td>
-
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -66,6 +53,8 @@
                     <hr class="hr_margin">
 
                 </div>
+
+                
             </div>
     @endfor
 @else
@@ -88,14 +77,8 @@
                     <thead>
                         <tr>
                             <th>Tên sản phẩm</th>
-                            <th>Hình ảnh</th>
-                            
-                            <th class="td_empty"></th>
-                            <th>Đơn giá</th>
-                            <th>Số lượng</th>
-                            <th>Thành tiền</th>
-                            <th class="td_empty"></th>
                             <th>Có khuyến mãi?</th>
+                            <th>Hình ảnh</th>
                             
                             <th>Đơn vị lẻ nhỏ nhất(ĐVLNN)</th>
                             <th>Giá lẻ / ĐVLNN</th>
@@ -109,14 +92,7 @@
                         <tr class="one_tr_product">
                             <td></td>
                             <td></td>
-
-                            <td class="td_empty"></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td class="td_empty"></td>
-                            <td></td>
-
                             <td></td>
                             <td></td>
                             <td></td>
@@ -129,7 +105,6 @@
             <hr class="hr_margin">
 
         </div>
- 
-    </div>
 
+    </div>
 @endif

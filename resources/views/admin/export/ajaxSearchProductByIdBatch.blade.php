@@ -54,8 +54,14 @@
         <thead>
             <tr>
                 <th>Tên sản phẩm</th>
-                <th>Có khuyến mãi?</th>
                 <th>Hình ảnh</th>
+                
+                <th class="td_empty"></th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+                <th class="td_empty"></th>
+                <th>Có khuyến mãi?</th>
                 
                 <th>Đơn vị lẻ nhỏ nhất(ĐVLNN)</th>
                 <th>Giá lẻ / ĐVLNN</th>
@@ -88,6 +94,15 @@
             <tr >
                 <td>{{$name}}</td>
                 <td>
+                    <a><img class="img_td" src="{{$ProductUrl}}{{$picture}}" /></a>
+                </td>
+
+                <td class="td_empty"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="td_empty"></td>
+                <td>
                     <div>
                         @if($active_km == 1)
                             <img class="toggle_img" src="{{$AdminResUrl}}images/on.png" />
@@ -97,9 +112,6 @@
                     </div>
                 </td>
 
-                <td>
-                    <a><img class="img_td" src="{{$ProductUrl}}{{$picture}}" /></a>
-                </td>
                 
                 <td>
                     <span class="unit_desc_span">{{$unit_le_char}}</span>

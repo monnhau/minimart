@@ -74,15 +74,9 @@ active
                             <thead>
                                 <tr>
                                     <th>Tên sản phẩm</th>
+                                    <th>Có khuyến mãi?</th>
                                     <th>Hình ảnh</th>
                                     
-                                    <th class="td_empty"></th>
-                                    <th>Đơn giá</th>
-                                    <th>Số lượng</th>
-                                    <th>Thành tiền</th>
-                                    <th class="td_empty"></th>
-                                    <th>Có khuyến mãi?</th>
-
                                     <th>Đơn vị lẻ nhỏ nhất(ĐVLNN)</th>
                                     <th>Giá lẻ / ĐVLNN</th>
                                     <th>Kích hoạt bán sĩ?</th>
@@ -95,14 +89,7 @@ active
                                 <tr class="one_tr_product">
                                     <td></td>
                                     <td></td>
-
-                                    <td class="td_empty"></td>
                                     <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="td_empty"></td>
-                                    <td></td>
-
                                     <td></td>
                                     <td></td>
                                     <td></td>
